@@ -15,6 +15,7 @@ const App = () => {
   const theme = useTheme();
   const matchesMobileDisplay = useMediaQuery(theme.breakpoints.down("xs"));
 
+  // request desktop view via viewport
   // https://stackoverflow.com/questions/22777734/what-is-initial-scale-user-scalable-minimum-scale-maximum-scale-attribute-in
   // https://stackoverflow.com/questions/2568760/is-it-possible-to-use-javascript-to-change-the-meta-tags-of-the-page
   const requestDesktopView = () => {
